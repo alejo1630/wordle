@@ -5,7 +5,6 @@ import pandas as pd # Use of database
 import random # Generate random values
 import itertools # Operations with lists based on iteration
 
-
 url = "https://www-cs-faculty.stanford.edu/~knuth/sgb-words.txt" # URL with the txt list of 5-length words
 
 df = pd.read_table(url, sep="\t+", engine='python') # Load the 5-length words as a data frame
